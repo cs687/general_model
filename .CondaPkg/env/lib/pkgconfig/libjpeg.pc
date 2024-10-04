@@ -1,0 +1,10 @@
+prefix=/Users/cs687/Documents/General Model Article/Scripts/.CondaPkg/env
+exec_prefix=/Users/cs687/Documents/General Model Article/Scripts/.CondaPkg/env
+libdir=/Users/cs687/Documents/General Model Article/Scripts/.CondaPkg/env/lib
+includedir=/Users/cs687/Documents/General Model Article/Scripts/.CondaPkg/env/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
